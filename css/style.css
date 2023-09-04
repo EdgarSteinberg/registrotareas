@@ -1,5 +1,6 @@
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -13,7 +14,6 @@ h1 {
 .twelve.columns {
     display: flex;
     flex-direction: column;
-
 
 }
 
@@ -30,7 +30,6 @@ h1 {
     margin: 0, auto;
     border-radius: 5px;
     border: 1px solid blue;
-    height: 50%;
     width: 70%;
 }
 
@@ -43,9 +42,9 @@ h1 {
     margin: 0 auto;
     border: 1px solid blue;
     border-radius: 5px;
-    height: 50%;
     width: 70%;
     margin-bottom: 15px;
+    padding: 10px;
 }
 
 
@@ -72,13 +71,17 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 
 p.error {
     background-color: red;
     color: white;
-    margin: 50px;
+    width: 60%;
+    margin:0 auto;
     padding: 15px;
+    border-radius: 5px;
+    
 }
 
 label {
