@@ -1,72 +1,87 @@
-*{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-h1{
+
+h1 {
     font-size: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-.twelve.columns{
+
+.twelve.columns {
     display: flex;
     flex-direction: column;
-    
-  
+
+
 }
-#formulario{
+
+#formulario {
     display: flex;
     flex-direction: column;
 }
 
 
-.button.u-full-width.button-primario{
+.button.u-full-width.button-primario {
     background-color: blue;
     color: white;
-    margin: 30px;
     padding: 15px;
+    margin: 0, auto;
+    border-radius: 5px;
+    border: 1px solid blue;
+    height: 50%;
+    width: 70%;
 }
 
-.u-full-width{
-    /* margin: 30px; */
-    margin-left: 25px;
-    margin-right: 25px;
+.button.u-full-width.button-primario:hover {
+    background-color: rgba(0, 0, 255, 0.89);
+
 }
 
-h2{
+.u-full-width {
+    margin: 0 auto;
+    border: 1px solid blue;
+    border-radius: 5px;
+    height: 50%;
+    width: 70%;
+    margin-bottom: 15px;
+}
+
+
+h2 {
     font-size: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
- #lista-notas{
+#lista-notas {
     display: flex;
     flex-direction: column;
-   align-items: center;
-   font-size: 25px;
-} 
+    align-items: center;
+    font-size: 25px;
+}
 
-a.borrar-nota{
+a.borrar-nota {
     color: red;
     margin-left: 30px;
 }
 
-p{
+p {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-p.error{
+p.error {
     background-color: red;
     color: white;
-    margin:50px;
+    margin: 50px;
     padding: 15px;
 }
 
-label{
+label {
     font-size: 20px;
-    margin-left: 25px;
+    margin-left: 15%;
 }
-

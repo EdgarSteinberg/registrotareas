@@ -55,7 +55,7 @@ const crearHTML = () => {
 
     notas.length > 0
         ? notas.forEach(({ nota, id }) => {
-            const btnEliminar = document.createElement("a")
+            const btnEliminar = document.createElement("a");
             btnEliminar.classList.add("borrar-nota")
             btnEliminar.textContent = "X"
             btnEliminar.onclick = () => {
