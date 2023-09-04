@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <link rel="stylesheet" href="./css/normalize.css">
+   <!--  <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="cs/custom.css"> --> 
+    <title>Document</title>
+</head>
+<body>
+    <main id ="contenido">
+        <section class="container">
+            <h1>ANOTADOR</h1>
+            <div class="row">
+                <div class="twelve columns">
+                    <label for="formulario">Nota:</label>
+                    <form id="formulario">
+                        <label for="nota"></label>
+                        <textarea id="nota" class="u-full-width"></textarea>
+                        <input type="submit" class="button u-full-width button-primario" value="AGREGAR">
+                    </form>
+                    <h2>Mis notas</h2>
+                    <div id="lista-notas"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+<script src="./anotador.js"></script>
+</body>
+</html>
