@@ -88,3 +88,7 @@ label {
     font-size: 20px;
     margin-left: 15%;
 }
+
+body{
+    background-image: linear-gradient(to right,#00CED1, #8A2BE2,  #9400D3);
+}
