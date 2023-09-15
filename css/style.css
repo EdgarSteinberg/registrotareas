@@ -104,3 +104,10 @@ body{
         font-size: 15px;
     }
 }
+@media screen and (max-width:300px) {
+    
+    
+    li{
+        font-size: 11px;
+    }
+}
