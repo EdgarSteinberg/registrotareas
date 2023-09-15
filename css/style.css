@@ -93,7 +93,7 @@ body{
     background-image: linear-gradient(to right,#00CED1, #892be2b9,  #9400D3);
 }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:400px) {
     h1 {
         font-size: 25px;
     }
