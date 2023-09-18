@@ -90,10 +90,10 @@ label {
 }
 
 body{
-    background-image: linear-gradient(to right,#00CED1, #892be2b9,  #9400D3);
+    background-image: linear-gradient(to right,#c0c4c4, #ccccccb9,  #f1edf3);
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:500px) {
     h1 {
         font-size: 25px;
     }
